@@ -14,7 +14,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var informacion: UITextView!
     
-    //@IBOutlet weak var scrollv: UIScrollView!
     
     @IBOutlet weak var cover: UIImageView!
     
@@ -29,7 +28,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let color = UIColor.brown
         isbn.delegate = self
         view.backgroundColor = color
-       // scrollv.contentSize.height = 1500
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
     
